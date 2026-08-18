@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+           /* .box::before{
+            content: "kritarth..";
+            color: rgb(7, 135, 56);
+        } */
+        .box:first-child{
+            background-color: rgb(229, 120, 120);
+
+        }
+        .box::first-letter{
+            color: rgb(170, 138, 11);
+            font-size: 35px;
+        }
+
+        .box::first-line{
+            color: rgb(31, 125, 208);
+        }
+        .boxes{
+            border: 2px solid black;
+        }
+        .box{
+            border: 2px solid blue;
+        }
+        .box:nth-child(even){
+            background-color: yellow;
+        }
+        .box::selection{
+            color: aqua;
+        }
+     
+    </style>
+    </style>
+</head>
+<body>
+    <div class="boxes">
+        <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi rem hic expedita sunt similique? Porro nihil, perspiciatis corrupti ipsum earum expedita natus quisquam nam voluptas eius, aliquam deleniti delectus ducimus numquam deserunt. Voluptatum fugit expedita voluptatibus a, aliquid nostrum earum illum aperiam iste dignissimos, veniam delectus repellat dolorem incidunt dolores.</div>
+        <div class="box">box 1</div>
+        <div class="box"> box 2</div>
+        <div class="box"> box 3</div>
+    </div>
+</body>
+</html>
